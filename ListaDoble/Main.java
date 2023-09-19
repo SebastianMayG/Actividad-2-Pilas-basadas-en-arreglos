@@ -17,6 +17,6 @@ public class Main
         lista.eliminar(2);
         lista.eliminar(3);
 
-        System.out.println("El indice #3 de la lista es: " + lista.obtener(3));
+        System.out.println("El indice de la lista es: " + lista.obtener(3));
     }    
 }
