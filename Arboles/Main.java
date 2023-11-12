@@ -57,7 +57,6 @@ public class Main
         arbol.imprimirArbol(Recorrido.POSFIJO);
 
         System.out.println("");
-        arbol.estaVacio();
 
         System.out.println("Arbol binario");
 
@@ -123,8 +122,8 @@ public class Main
             System.out.println("El arbol no esta vacio");
         }
         
-        System.out.println("La altura del árbol es: " + arbol.obtenerAltura(arbolbinario.obtenerRaiz()));
-
+        System.out.println("La altura del arbol es: " + arbolbinario.obtenerAltura());
+        
         arbolbinario.imprimirSubArbol(nodoBinarioG);//En este parametro se cambia el nodo que se quiere imprimir como subArbol
     }
 }
