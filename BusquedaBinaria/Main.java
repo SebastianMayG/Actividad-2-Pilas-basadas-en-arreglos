@@ -9,7 +9,7 @@ public class Main
 
         for (int i = 0; i < 1000; i++)
         {
-            arr[i] = (int)(Math.random()*10000);
+            arr[i] = (int)(Math.random()*100000);
         }
 
         BusquedaBinaria.quickSort(arr);
